@@ -1,0 +1,12 @@
+{
+    "name": "hivereader",
+    "parameter": {
+        "path": "",
+        "defaultFS": "",
+        "sql": "",
+        "column": [],
+        "fileType": "orc",
+        "encoding": "UTF-8",
+        "fieldDelimiter": ","
+    }
+}

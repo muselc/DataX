@@ -22,7 +22,8 @@ public enum DataBaseType {
     ClickHouse("clickhouse", "ru.yandex.clickhouse.ClickHouseDriver"),
     KingbaseES("kingbasees", "com.kingbase8.Driver"),
     Oscar("oscar", "com.oscar.Driver"),
-    OceanBase("oceanbase", "com.alipay.oceanbase.jdbc.Driver");
+    OceanBase("oceanbase", "com.alipay.oceanbase.jdbc.Driver"),
+    HIVE("hive2","org.apache.hive.jdbc.HiveDriver");
 
 
     private String typeName;
@@ -66,6 +67,8 @@ public enum DataBaseType {
             case KingbaseES:
                 break;
             case Oscar:
+                break;
+            case HIVE:
                 break;
             default:
                 throw DataXException.asDataXException(DBUtilErrorCode.UNSUPPORTED_TYPE, "unsupported database type.");

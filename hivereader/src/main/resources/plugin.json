@@ -1,0 +1,6 @@
+{
+    "name": "hivereader",
+    "class": "com.hz.datax.plugin.reader.hivereader.HiveReader2",
+    "description": "",
+    "developer": "hz"
+}
