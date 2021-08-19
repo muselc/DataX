@@ -8,9 +8,8 @@ ___
 
 ## 1 快速介绍
 
-HiveReader插件实现了从Hive读取数据。在底层实现上，HiveReader通过JDBC连接远程Hive数据库，并执行相应的sql语句将数据从mysql库中SELECT出来。
+HiveReader插件实现了从Hive读取数据。在底层实现上，HiveReader通过JDBC连接远程Hive数据库，并执行相应的sql语句将数据从hive库中SELECT出来。
 
-**不同于其他关系型数据库，HiveReader不支持FetchSize.**
 
 ## 2 实现原理
 
