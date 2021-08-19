@@ -1,12 +1,14 @@
 {
     "name": "hivereader",
     "parameter": {
-        "path": "",
-        "defaultFS": "",
-        "sql": "",
+        "username": "",
+        "password": "",
         "column": [],
-        "fileType": "orc",
-        "encoding": "UTF-8",
-        "fieldDelimiter": ","
+        "connection": [
+            {
+                "jdbcUrl": "",
+                "table": []
+            }
+        ]
     }
 }
