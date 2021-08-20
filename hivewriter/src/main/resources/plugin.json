@@ -1,0 +1,6 @@
+{
+  "name": "hivewriter",
+  "class": "com.hz.datax.plugin.writer.hivewriter.HiveWriter",
+  "description": "hivewriter jdbc",
+  "developer": "hz"
+}

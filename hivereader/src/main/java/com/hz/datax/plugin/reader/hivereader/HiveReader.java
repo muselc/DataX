@@ -33,7 +33,6 @@ public class HiveReader extends Reader {
 
             this.originalConfig = super.getPluginJobConf();
             this.originalConfig.set(com.alibaba.datax.plugin.rdbms.reader.Constant.FETCH_SIZE, Integer.MIN_VALUE);
-            LOG.info(  "编码格式为:{}", this.originalConfig.toJSON());
             this.commonRdbmsReaderJob = new CommonRdbReader.Job(DATABASE_TYPE);
             this.commonRdbmsReaderJob.init(this.originalConfig);
         }

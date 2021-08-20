@@ -121,6 +121,8 @@ public enum DataBaseType {
                     result = jdbc + "?" + suffix;
                 }
                 break;
+            case HIVE:
+                break;
             default:
                 throw DataXException.asDataXException(DBUtilErrorCode.UNSUPPORTED_TYPE, "unsupported database type.");
         }
